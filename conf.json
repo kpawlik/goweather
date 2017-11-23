@@ -1,0 +1,34 @@
+{
+    "url": "https://graphical.weather.gov/xml/sample_products/browser_interface/ndfdXMLclient.php?whichClient=GmlLatLonList&gmlListLatLon=%s&featureType=Forecast_Gml2Point&compType=Between&propertyName=",
+    "csvDelimiter": ";",
+    "workers": 4,
+    "step": 50,
+    "gridSize": 100,
+    "gridWSLatLng": [
+        21,
+        -127
+    ],
+    "gridENLatLng": [
+        50,
+        -60
+    ],
+    "outFormats": [
+        "json",
+        "csv"
+    ],
+    "outFileName": "tmp/weather_out",
+    "properties": [
+        {
+            "name": "mint",
+            "max": 100,
+            "min": -100,
+            "colorsFile": "colors.png"
+        },
+        {
+            "name": "maxt",
+            "max": 100,
+            "min": -100,
+            "colorsFile": "colors.png"
+        }
+    ]
+}
